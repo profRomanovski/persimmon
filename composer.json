@@ -9,10 +9,15 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "nikic/fast-route": "2.0.x-dev"
+  },
   "autoload": {
     "psr-4": {
       "Persimmon\\": "app/code/Persimmon"
-    }
+    },
+    "files": [
+      "route\\web.php"
+    ]
   }
 }
